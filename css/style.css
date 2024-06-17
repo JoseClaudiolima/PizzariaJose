@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: black;
+    color: white;
+    height: 5em;
+
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 50px;
+    margin: 1em 2em;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HOME */
+
+
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    height: 5em;
+
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+
+    justify-content: center;
+}
+

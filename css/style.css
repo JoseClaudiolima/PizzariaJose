@@ -28,7 +28,31 @@ header a, footer a {
 }
 
 /* HOME */
+#main-container{
+    background-image: url("../img/pizza-banner.jpg");
+    height: 300px;
 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-position-y: -300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container p {
+    background-color: black;
+    color: white;
+    font-size: 3em;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 15px;
+}
 
 
 /* FOOTER */

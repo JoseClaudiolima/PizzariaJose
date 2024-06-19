@@ -22,6 +22,11 @@ header img{
     margin: 1em 2em;
 }
 
+header #dashboard{
+    margin-left: auto;
+    margin-right: 3em;
+}
+
 header a, footer a {
     color: white;
     text-decoration: none;
@@ -53,6 +58,62 @@ header a, footer a {
     padding: 30px;
     border-radius: 15px;
 }
+
+
+
+/* MAIN CONTAINER*/
+
+main p{
+    text-align: center;
+    margin: 1.5em 0 1em 0;
+    font-size: 2em;
+}
+
+#pizza-form{
+    text-align: center;
+}
+
+.form-option { /*Espaçar os options*/
+    width: 35em;
+    display: flex;
+}
+
+select {
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.247);
+    padding: 5px 0 5px 3px;
+
+    width: 30em;
+}
+
+select:focus {
+    border-color: rgb(140, 205, 226);
+    box-shadow: 0 0 10px 1px rgb(140, 187, 226);
+}
+
+.formDiv{
+    /*margin: 10px;*/
+    margin: auto;
+    width: 395px;
+    margin-bottom: 10px;
+}
+
+.formDiv > label{ /*Falta deixar na esquerda do select*/
+    font-weight: bold;
+}
+
+#sabores > option{
+    text-indent: 1em;
+    padding: 0px 0px 2px 0;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
 
 /* FOOTER */

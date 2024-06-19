@@ -23,5 +23,6 @@
     <a href="https://github.com/JoseClaudiolima/testepizzariajoao" target="_blank">
         <p>Pizzaria do José</p>
     </a>
+    <a href="dashboard.php" id="dashboard">Dashboard</a>
 </header>
 

@@ -1,6 +1,6 @@
 <?php
 include_once("templates/header.php");
-include_once("process/home.php");
+include_once("process/pedido.php");
 
 ?>
 

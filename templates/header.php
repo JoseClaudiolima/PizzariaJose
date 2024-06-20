@@ -1,5 +1,5 @@
 <?php
-
+include("process/conn.php");
 ?>
 
 <!DOCTYPE html>
@@ -19,10 +19,22 @@
 <body>
     
 <header>
-    <a href=""> <img src="img/pizza.svg" alt=""> </a>
+    <a href="index.php"> <img src="img/pizza.svg" alt=""> </a>
     <a href="https://github.com/JoseClaudiolima/testepizzariajoao" target="_blank">
         <p>Pizzaria do José</p>
     </a>
     <a href="dashboard.php" id="dashboard">Dashboard</a>
 </header>
 
+
+
+
+
+<?php if(isset($_SESSION['mensagem']) && !empty($_SESSION['mensagem']) ):?>
+    <div class='<?= $_SESSION['notification']?>'>
+        <p id="pnot"><?=$_SESSION['mensagem']; ?></p>
+    </div>
+<?php
+    $_SESSION['mensagem'] = '';
+    $_SESSION['notification'] = '';
+endif ?>

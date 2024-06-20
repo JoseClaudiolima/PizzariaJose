@@ -61,7 +61,7 @@ header a, footer a {
 
 
 
-/* MAIN CONTAINER*/
+/* HOME MAIN CONTAINER*/
 
 main p{
     text-align: center;
@@ -114,7 +114,42 @@ select:focus {
     padding: 10px;
 }
 
+/* DASHBOARD */
+#cabecalho{
+    border-bottom: 1px solid black;
+    
+}
 
+.thead{
+    margin: 10px;
+}
+
+/*NOTIFICATION*/
+.warning{
+    background-color: #fff3cd;
+    border: 2px solid #856404;
+    color: #664d03;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+    height: 65px;    
+}
+
+#pnot {
+    margin-top: calc(65px / 3);
+}
+
+.success{
+    background-color: #d1e7dd;
+    border: 2px solid #155724;
+    color: #155724;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;    
+
+    height: 65px;
+}
 
 /* FOOTER */
 footer{

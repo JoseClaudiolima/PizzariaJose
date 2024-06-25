@@ -115,13 +115,50 @@ select:focus {
 }
 
 /* DASHBOARD */
-#cabecalho{
-    border-bottom: 1px solid black;
-    
+table{
+    width: 100vw;
 }
+
+td{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(182, 182, 182, 0.616);
+}
+
+form{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding-left: 10px;
+    text-indent: -15px;
+}
+
 
 .thead{
     margin: 10px;
+}
+
+select#status{
+    width: 9em;
+}
+
+.button-form{
+    margin: 0 0 0 10px;
+    border: none;
+    background-color: white;
+}
+
+.update-btn{
+    color: rgb(56, 56, 187);
+}
+
+.delete-btn{
+    color: rgb(190, 0, 0);
 }
 
 /*NOTIFICATION*/

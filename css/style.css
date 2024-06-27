@@ -63,10 +63,19 @@ header a, footer a {
 
 /* HOME MAIN CONTAINER*/
 
+main{
+    text-align: center;
+    font-size: 1.2em;
+}
+
 main p{
     text-align: center;
-    margin: 1.5em 0 1em 0;
+    margin: 0.75em 0 0.5em 0;
     font-size: 2em;
+}
+
+form > div{
+    margin: 0 0 10px 0;
 }
 
 #pizza-form{
@@ -92,8 +101,6 @@ select:focus {
 }
 
 .formDiv{
-    /*margin: 10px;*/
-    margin: auto;
     width: 395px;
     margin-bottom: 10px;
 }

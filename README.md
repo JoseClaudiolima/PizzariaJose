@@ -38,7 +38,7 @@ Pizzaria do José é um projeto desenvolvido em PHP e SQL, com HTML/CSS para a i
 
 2. Importe o banco de dados a partir do arquivo `pizza_database.sql` incluído no repositório.
 
-3. Configure o arquivo `conn.php` com as informações do seu banco de dados.
+3. Configure o arquivo `conn.php` com as informações respectivas do seu MYSQL previamente instalado.
 
 4. Abra o projeto em seu navegador web.
 
